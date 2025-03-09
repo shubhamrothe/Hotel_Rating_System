@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "retry.instances.rating-hotel-service.max-attempts",
+  "type": "java.lang.String",
+  "description": "A description for 'retry.instances.rating-hotel-service.max-attempts'"
+}]}

@@ -1,0 +1,16 @@
+package com.example.rating.service.repositories;
+
+import java.util.List;
+
+import com.example.rating.service.entities.Rating;
+
+public interface RatingRepository
+{
+	//custom finder methods
+	//here method name is formed from camel case of field name
+	List<Rating> findByUserId(String userId);
+	
+	List<Rating> findByHotelId(String hotelId);
+	
+}
+ 
